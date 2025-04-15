@@ -8,8 +8,9 @@
   - [x] ProjecCard.jsx
   - [] ProjectTags.jsx
   - [] Contact.jsx 
-- [] add more projects, and projects details in the projects.json
-- [] 
+- [] add details to projects.json 
+- [] style ProjectCard.jsx
+- [] style 
 
 
 
