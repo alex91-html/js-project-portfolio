@@ -14,7 +14,7 @@ my-portfolio/
 │   └── 📄 vite.svg
 
 ├── 📁 src/                                       
-│   ├── 📁 assets/     **images,icons,fonts,etc**                         
+│   ├── 📁 assets/                       **images,icons,fonts,etc**                         
 │   │   ├── headshot.png
 │   │   ├── 📁 fonts
 │   │   │   └── ocr-a.??         
@@ -30,24 +30,24 @@ my-portfolio/
 │   │   │   ├── 📄 Footer.jsx
 │   │   │   └── 📄 SectionWrapper.jsx
 │   │   │
-│   │   ├── 📁 ui/ **tiny_reusable_visual_components**
+│   │   ├── 📁 ui/                        **tiny_reusable_visual_components**
 │   │   │   ├── 📄 Button.jsx
 │   │   │   ├── 📄 Tag.jsx
 │   │   │   └── 📄 HeaderTitle.jsx
 │   │   │
 │   │   ├── 📁 project/
-│   │   │   ├── 📄 ProjectsSection.jsx  **Section wrapper**
+│   │   │   ├── 📄 ProjectsSection.jsx    **Section wrapper**
 │   │   │   ├── 📄 ProjectCard.jsx
 │   │   │   ├── 📄 ProjectList.jsx
 │   │   │   └── 📄 ProjectTags.jsx
 │   │   │
-│   │   ├── 📁 about/ **→About_Me_section_components**
-│   │   │   ├── 📄 AboutSection.jsx     **Section wrapper**
+│   │   ├── 📁 about/                     **About_Me_section_components**
+│   │   │   ├── 📄 AboutSection.jsx       **Section wrapper**
 │   │   │   ├── 📄 Bio.jsx
 │   │   │   └── 📄 SkillsList.jsx
 │   │   │
 │   │   └── 📁 contact/
-│   │       ├── 📄 ContactSection.jsx   **Section wrapper**
+│   │       ├── 📄 ContactSection.jsx     **Section wrapper**
 │   │       └── 📄 ContactInfo.jsx
 │   │
 │   ├── 📁 data/
