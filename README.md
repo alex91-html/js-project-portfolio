@@ -1,29 +1,58 @@
 # Portfolio
 
 ## file tree structure 
-📁 my-portfolio/
-│
-├── 📄 index.html              
-├── 📄 package.json            
-├── 📄 vite.config.js          
+my-portfolio/
+├── 📄 index.html
+├── 📄 package.json
+├── 📄 vite.config.js
 ├── 📄 README.md
-├── 📄 TODO.md               
-├── 📁 public/                 
-│   └── vite.svg              
-│
-├── 📁 src/                    		
-│   ├── 📁 assets/             	
-│   │   └── profile-pic.jpg
+├── 📄 TODO.md
+├── 📄 .gitignore
+├── 📄 package-lock.json
+
+├── 📁 public/
+│   └── 📄 vite.svg
+
+├── 📁 src/                                       
+│   ├── 📁 assets/     **images,icons,fonts,etc**                         
+│   │   ├── headshot.png
+│   │   ├── 📁 fonts
+│   │   │   └── ocr-a.??         
+│   │   └── 📁 projImg 
+│   │       ├── 📄 img1 
+│   │       ├── 📄 img2
+│   │       ├── 📄 img3
+│   │       └── etc etc
 │   │
-│   ├── 📁 components/       	
-│   │   ├── Card.jsx
+│   ├── 📁 components/                                            
+│   │   ├── 📁 layout/
+│   │   │   ├── 📄 Navbar.jsx
+│   │   │   ├── 📄 Footer.jsx
+│   │   │   └── 📄 SectionWrapper.jsx
+│   │   │
+│   │   ├── 📁 ui/ **tiny_reusable_visual_components**
+│   │   │   ├── 📄 Button.jsx
+│   │   │   ├── 📄 Tag.jsx
+│   │   │   └── 📄 HeaderTitle.jsx
+│   │   │
+│   │   ├── 📁 project/
+│   │   │   ├── 📄 ProjectsSection.jsx  **Section wrapper**
+│   │   │   ├── 📄 ProjectCard.jsx
+│   │   │   ├── 📄 ProjectList.jsx
+│   │   │   └── 📄 ProjectTags.jsx
+│   │   │
+│   │   ├── 📁 about/ **→About_Me_section_components**
+│   │   │   ├── 📄 AboutSection.jsx     **Section wrapper**
+│   │   │   ├── 📄 Bio.jsx
+│   │   │   └── 📄 SkillsList.jsx
+│   │   │
+│   │   └── 📁 contact/
+│   │       ├── 📄 ContactSection.jsx   **Section wrapper**
+│   │       └── 📄 ContactInfo.jsx
 │   │
-│   ├── 📁 data/               		
-│   │   └── projects.js
+│   ├── 📁 data/
+│   │   └── 📄 projects.js
 │   │
-│   ├── App.jsx              		 
-│   ├── main.jsx             		 
-│   └── index.css            		 
-│
-├── 📄 .gitignore              	
-└── 📄 package-lock.json      
+│   ├── 📄 App.jsx
+│   ├── 📄 main.jsx
+│   └── 📄 index.css
