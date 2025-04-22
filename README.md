@@ -1,6 +1,6 @@
 # Portfolio
 
-## file tree structure 
+## possible/ reference file tree structure 
 my-portfolio/
 ├── 📄 index.html
 ├── 📄 package.json
