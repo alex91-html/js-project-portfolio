@@ -1,22 +1,31 @@
-import React from 'react';
 
-const ProjectCard = ({ name, image, tags, netlify, github }) => {
+import React from 'react';
+import Tag from "./tags";
+import ActionButton from "./ActionButton";
+
+const ProjectCard = ({ name, image, description, tags, netlify, github }) => {
   return (
-    <div className="project-card">
-      <img src={image} alt={name} className="project-image" />
-      <h3>{name}</h3>
-      <div className="project-tags">
+    <div>
+      {image && <img src={image} alt={name} />}
+
+      <div>
         {tags.map((tag, index) => (
-          <span key={index} className="project-tag">{tag}</span>
+          <Tag key={index} text={tag} />
         ))}
       </div>
-      <div className="project-links">
-        <a href={netlify} target="_blank" rel="noopener noreferrer">Live Site</a>
-        <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a>
+
+      <h3>{name}</h3>
+
+      <p>{description}</p>
+
+      <div>
+        <ActionButton label="Live demo" href={netlify} />
+        <ActionButton label="View Code" href={github} />
       </div>
     </div>
   );
-}
+};
 
 export default ProjectCard;
+
 

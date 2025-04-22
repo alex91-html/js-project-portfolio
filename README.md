@@ -37,7 +37,7 @@ my-portfolio/
 │   │   │
 │   │   ├── 📁 project/
 │   │   │   ├── 📄 ProjectsSection.jsx    **Section wrapper**
-│   │   │   ├── 📄 ProjectCard.jsx
+│   │   │   ├── 📄 **ProjectCard.jsx**
 │   │   │   ├── 📄 ProjectList.jsx
 │   │   │   └── 📄 ProjectTags.jsx
 │   │   │
