@@ -14,7 +14,7 @@ my-portfolio/
 │   └── 📄 vite.svg
 
 ├── 📁 src/                                       
-│   ├── 📁 assets/                       **images,icons,fonts,etc**                         
+│   ├── 📁 assets/           **images,icons,fonts etc**                         
 │   │   ├── headshot.png
 │   │   ├── 📁 fonts
 │   │   │   └── ocr-a.??         
@@ -35,11 +35,11 @@ my-portfolio/
 │   │   │   ├── 📄 Tag.jsx
 │   │   │   └── 📄 HeaderTitle.jsx
 │   │   │
-│   │   ├── 📁 project/
+│   │   ├── 📁 section-project/
 │   │   │   ├── 📄 ProjectsSection.jsx    **Section wrapper**
-│   │   │   ├── 📄 **ProjectCard.jsx**
-│   │   │   ├── 📄 ProjectList.jsx
-│   │   │   └── 📄 ProjectTags.jsx
+│   │   │   ├── 📄 ProjectCard.jsx <!--done--> 
+│   │   │   ├── 📄 ProjectLinks.jsx <!--done-->
+│   │   │   └── 📄 ProjectTags.jsx <!--done-->
 │   │   │
 │   │   ├── 📁 about/                     **About_Me_section_components**
 │   │   │   ├── 📄 AboutSection.jsx       **Section wrapper**

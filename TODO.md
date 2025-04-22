@@ -6,7 +6,7 @@
   - [] Skills.jsx
   - [] Projects.jsx 
   - [x] Card.jsx
-  - [] ProjectTags.jsx
+  - [x] ProjectTags.jsx
   - [] Contact.jsx 
 - [] add details to projects.json 
 - [] style ProjectCard.jsx

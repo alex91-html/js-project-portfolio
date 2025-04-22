@@ -1,8 +1,7 @@
 
 import React from 'react';
 import projectsData from './data/projects.json'; // Import your projects data
-import ProjectCard from "./components/ProjectCard.jsx"; // Correct path
-
+import ProjectCard from './components/projectSection/ProjectCard.jsx'; // Correct path
 
 export const App = () => {
   return (
@@ -14,7 +13,8 @@ export const App = () => {
           <ProjectCard
             key={index}
             name={project.name}
-            image={project.image}
+            description={project.description}
+            image={projectImage}
             tags={project.tags}
             netlify={project.netlify}
             github={project.github}

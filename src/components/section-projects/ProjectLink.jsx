@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ActionButton = ({ lable, href }) => {
+const ProjectLink = ({ lable, href }) => {
   return (
     <a href={href} target="_blank" rel="noopener noreferrer">
       {lable}
@@ -8,4 +8,4 @@ const ActionButton = ({ lable, href }) => {
   );
 };
 
-export default ActionButton;
+export default ProjectLink;

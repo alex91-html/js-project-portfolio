@@ -1,12 +1,12 @@
 
 import React from 'react';
-import Tag from "./tags";
-import ActionButton from "./ActionButton";
+import Tag from "ProjectTags.jsx";
+import ActionButton from "ProjectLink.jsx";
 
 const ProjectCard = ({ name, image, description, tags, netlify, github }) => {
   return (
     <div>
-      {image && <img src={image} alt={name} />}
+      {image && <img src={require(`../assets/images/${image}`)} alt={name} />}
 
       <div>
         {tags.map((tag, index) => (
