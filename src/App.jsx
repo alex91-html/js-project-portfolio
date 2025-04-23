@@ -1,36 +1,10 @@
-
-import React from 'react';
-import projectsData from './data/projects.json';
-import ProjectCard from "./components/section-project/ProjectCard.jsx";
+import React from "react";
+import ProjectsSection from "./components/section-project/ProjectsSection.jsx";
 
 export const App = () => {
   return (
-    <>
-      <h1>Selected Projects</h1>
-      {/* Loop through the projects array and render a ProjectCard for each */}
-      <div className="projects-container">
-        {projectsData.projects.map((project, index) => (
-          <ProjectCard
-            key={index}
-            name={project.name}
-            description={project.description}
-            image={project.image}
-            tags={project.tags}
-            netlify={project.netlify}
-            github={project.github}
-          />
-        ))}
-      </div>
-    </>
+    <div>
+      <ProjectsSection />
+    </div>
   );
 };
-
-
-// export const App = () => {
-//   return (
-//     <>
-//       <h1>Hello</h1>
-//       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laborum! Maxime animi nostrum facilis distinctio neque labore consectetur beatae eum ipsum excepturi voluptatum, dicta repellendus incidunt fugiat, consequatur rem aperiam.</p>
-//     </>
-//   )
-// }
