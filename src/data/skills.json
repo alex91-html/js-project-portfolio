@@ -1,0 +1,41 @@
+{
+  "skills": {
+    "Code": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "ES6",
+      "React",
+      "Styled Components",
+      "GitHub",
+      "Node.js"
+    ],
+    "Tools": [
+      "Adobe Suite",
+      "Blender",
+      "VSC",
+      "After Effect",
+      "DaVinci Resolve",
+      "Figma",
+      "Slack"
+    ],
+    "Creative & Workflow": [
+      "Web Design and Development",
+      "Storytelling",
+      "Graphic Design",
+      "3D Animation",
+      "Motion Graphics",
+      "3D Modeling",
+      "Video Editing",
+      "Video Production",
+      "Video creation",
+      "User interface design",
+      "Branding",
+      "Concept Development",
+      "Agile methodology",
+      "Mob programming",
+      "Pair programming",
+      "Teamwork"
+    ]
+  }
+}
