@@ -1,7 +1,7 @@
 
 import React from 'react';
-import Tag from "ProjectTags.jsx";
-import ActionButton from "ProjectLink.jsx";
+import Tag from "./ProjectTags.jsx";
+import ActionButton from "./ProjectLink.jsx";
 
 const ProjectCard = ({ name, image, description, tags, netlify, github }) => {
   return (
