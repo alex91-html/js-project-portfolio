@@ -14,7 +14,7 @@ export const App = () => {
             key={index}
             name={project.name}
             description={project.description}
-            image={projectImage}
+            image={project.image}
             tags={project.tags}
             netlify={project.netlify}
             github={project.github}
