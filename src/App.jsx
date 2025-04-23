@@ -1,7 +1,7 @@
 
 import React from 'react';
-import projectsData from './data/projects.json'; // Import your projects data
-import ProjectCard from './components/projectSection/ProjectCard.jsx'; // Correct path
+import projectsData from './data/projects.json';
+import ProjectCard from "./components/section-project/ProjectCard.jsx";
 
 export const App = () => {
   return (
