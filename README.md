@@ -11,18 +11,17 @@ my-portfolio/
 ├── 📄 package-lock.json
 
 ├── 📁 public/
-│   └── 📄 vite.svg
-
+│   ├── 📄 vite.svg
+│   └── 📁 images
+│       ├── 📄 img1
+│       ├── 📄 img1
+│       └── 📄 img1
+│
 ├── 📁 src/                                       
 │   ├── 📁 assets/           **images,icons,fonts etc**                         
 │   │   ├── headshot.png
-│   │   ├── 📁 fonts
-│   │   │   └── ocr-a.??         
-│   │   └── 📁 projImg 
-│   │       ├── 📄 img1 
-│   │       ├── 📄 img2
-│   │       ├── 📄 img3
-│   │       └── etc etc
+│   │   └── 📁 fonts
+│   │       └── ocr-a.??         
 │   │
 │   ├── 📁 components/                                            
 │   │   ├── 📁 layout/
@@ -36,7 +35,7 @@ my-portfolio/
 │   │   │   └── 📄 HeaderTitle.jsx
 │   │   │
 │   │   ├── 📁 section-project/
-│   │   │   ├── 📄 ProjectsSection.jsx    **Section wrapper**
+│   │   │   ├── 📄 ProjectsSection.jsx <!--done-->  **Section wrapper**
 │   │   │   ├── 📄 ProjectCard.jsx <!--done--> 
 │   │   │   ├── 📄 ProjectLinks.jsx <!--done-->
 │   │   │   └── 📄 ProjectTags.jsx <!--done-->
