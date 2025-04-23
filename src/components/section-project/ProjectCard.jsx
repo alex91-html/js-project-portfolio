@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Tag from "./ProjectTags.jsx";
-import ActionButton from "./ProjectLink.jsx";
+import ProjectLink from "./ProjectLink.jsx";
 
 const ProjectCard = ({ name, image, description, tags, netlify, github }) => {
   return (
@@ -19,8 +19,8 @@ const ProjectCard = ({ name, image, description, tags, netlify, github }) => {
       <p>{description}</p>
 
       <div>
-        <ActionButton label="Live demo" href={netlify} />
-        <ActionButton label="View Code" href={github} />
+        <ProjectLink label="Live demo" href={netlify} />
+        <ProjectLink label="View Code" href={github} />
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
 import React from 'react';
 
-const ProjectLink = ({ lable, href }) => {
+const ProjectLink = ({ label, href }) => {
   return (
     <a href={href} target="_blank" rel="noopener noreferrer">
-      {lable}
+      {label}
     </a>
   );
 };
