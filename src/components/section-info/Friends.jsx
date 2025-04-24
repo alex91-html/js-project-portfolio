@@ -1,8 +1,8 @@
 import React from "react";
 
-const Education = () => {
+const Friends = () => {
   return (
     <div></div>
   )
 }
-export default Education;
+export default Friends;

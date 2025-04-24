@@ -1,0 +1,114 @@
+{
+  "skills": {
+    "Code": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "ES6",
+      "React",
+      "Styled Components",
+      "GitHub",
+      "Node.js"
+    ],
+    "Tools": [
+      "Adobe Suite",
+      "Blender",
+      "VSC",
+      "After Effect",
+      "DaVinci Resolve",
+      "Figma",
+      "Slack"
+    ],
+    "Creative & Workflow": [
+      "Web Design and Development",
+      "Storytelling",
+      "Graphic Design",
+      "3D Animation",
+      "Motion Graphics",
+      "3D Modeling",
+      "Video Editing",
+      "Video Production",
+      "Video creation",
+      "User interface design",
+      "Branding",
+      "Concept Development",
+      "Agile methodology",
+      "Mob programming",
+      "Pair programming",
+      "Teamwork"
+    ]
+  },
+  "tech": [
+    "HTML",
+    "CSS",
+    "Flexbox",
+    "JavaScript",
+    "ES6",
+    "React",
+    "Node.js",
+    "Web Accessibility",
+    "APIs",
+    "mob-programming",
+    "pair-programming",
+    "GitHub",
+    "Git"
+  ],
+  "hero": {
+    "title": "Hero Section",
+    "content": "Alex is a designer who uses code and currently freelances as a web developer and Graphic Designer based in Stockholm. You can contact him via email or Instagram."
+  },
+  "about": {
+    "title": "About / Approach",
+    "content": "Currently freelancing as web developer and graphic designer based in Stockholm. I’ve worked across formats—from posters and digital layouts to animated visuals and short-form video content.\n\nCurious by nature, I enjoy exploring new tools and creative methods that strengthen my core practice in design and development. Whether working solo or as part of a team, I try to bring adaptability, intention, and a genuine passion for visual arts and technology to every project.\n\nIn addition to applied work I continue a practice of personal and collaborative visual art and moving image work."
+  },
+  "services": {
+    "title": "Services",
+    "content": [
+      "Graphic Design",
+      "3D Design",
+      "Animation",
+      "Video Editing",
+      "Videography",
+      "Web Design",
+      "Visual Design",
+      "Web Development"
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "content": [
+      "2018 Gerrit Rietveld Academie – Graphic Design",
+      "2025 Technigo JavaScript web development"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "content": [
+      "a.ubelhor@gmail.com",
+      "Are.na",
+      "Instagram",
+      "GitHub"
+    ]
+  },
+  "friends": {
+    "title": "Friends & Collaborators",
+    "content": [
+      {
+        "name": "Jurgis Lietunovas",
+        "link": "link"
+      },
+      {
+        "name": "Fabian",
+        "link": "link"
+      },
+      {
+        "name": "Lova",
+        "link": "link"
+      },
+      {
+        "name": "Matthew",
+        "link": "link"
+      }
+    ]
+  }
+}

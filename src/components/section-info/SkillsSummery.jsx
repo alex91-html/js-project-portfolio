@@ -1,9 +1,9 @@
 import React from "react";
-import skillsData from "../../data/skills.json";
+import skillsData from "../../data/info.json";
 
-const SkillsSection = () => {
+const Skills = () => {
   return (
-    <section>
+    <div>
       <h2>Skills</h2>
       <div>
         {Object.entries(skillsData.skills).map(([category, skills], index) => (
@@ -17,8 +17,8 @@ const SkillsSection = () => {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 
-export default SkillsSection;
+export default Skills;
