@@ -4,9 +4,9 @@ import infoData from '../../data/info.json';
 const TechSection = () => {
   return (
     <section>
-      <h2>Tech</h2>
+      <h2>{infoData.tech.title}</h2>
       <ul>
-        {infoData.tech.map((item, index) => (
+        {infoData.tech.items.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
       </ul>

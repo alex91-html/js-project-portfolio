@@ -1,12 +1,12 @@
 import React from "react";
-import skillsData from "../../data/info.json";
+import infoData from "../../data/info.json";
 
 const Skills = () => {
   return (
     <div>
-      <h2>Skills</h2>
+      <h2>{infoData.skills.title}</h2>
       <div>
-        {Object.entries(skillsData.skills).map(([category, skills], index) => (
+        {Object.entries(infoData.skills.categories).map(([category, skills], index) => (
           <div key={index}>
             <h3>{category}</h3>
             <ul>
