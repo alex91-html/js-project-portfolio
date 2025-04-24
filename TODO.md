@@ -1,13 +1,27 @@
 ## to do / log
 - [x] look into file structure
-- [] build components
-  - [] About.jsx
-  - [] Tech.jsx
-  - [] Skills.jsx
-  - [] Projects.jsx 
-  - [x] Card.jsx
-  - [x] ProjectTags.jsx
+
+
+
+- [] about 
+
+- [] tech 
+
+- [] contact 
+
+
+
+- [x] skillsSection
+
+- [x] 📁 section-project/
+      - [x] ProjectCard.jsx
+      - [x] ProjectTags.jsx
+      - [x] ProjectLink.jsx
   - [] Contact.jsx 
-- [] add details to projects.json 
-- [] style ProjectCard.jsx
 - [] style 
+
+- - -
+
+- [x] fix porject card path
+- [x] fix tag path
+- [x] fix images problem
