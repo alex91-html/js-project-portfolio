@@ -1,4 +1,4 @@
-import React from "react";
+
 import infoData from "../../data/info.json";
 
 const Services = () => {

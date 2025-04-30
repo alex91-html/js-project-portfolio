@@ -1,4 +1,4 @@
-import React from "react";
+
 import infoData from "../../data/info.json";
 import About from "./About.jsx";
 import Services from "./Services.jsx";
