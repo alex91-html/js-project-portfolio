@@ -12,6 +12,7 @@ import InfoSection from "./components/section-info/InfoSection.jsx";
 export const App = () => {
   return (
     <ThemeProvider theme={theme}>
+      <GlobalStyle />
       <div>
         <HeroSection />
         <TechSection />

@@ -10,11 +10,15 @@
       - [x] ProjectTags.jsx
       - [x] ProjectLink.jsx
 - [x] info section & about & contact
+- [x] add, import custom typography  
+- [] start styling the sections
 
-- - -
 
-- [] add typography  
-- [] sytle the heder 
-- [] and so on
+= = =
+
+## questions 
+
+- when to use theme and when to use GlobalStyle.jsx? 
+
 
 

@@ -4,7 +4,9 @@ export const theme = {
     text: "#333333",
   },
   fonts: {
-    body: "Arial, sans-serif",
+    body: "ocr-a-std, monospace, Arial, sans-serif",
+    fontWeight: 100,
+    fontStyle: "normal"
   },
 };
 
