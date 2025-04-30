@@ -13,9 +13,8 @@
 
 - - -
 
-- [] style 
-
-
-
+- [] add typography  
+- [] sytle the heder 
+- [] and so on
 
 
