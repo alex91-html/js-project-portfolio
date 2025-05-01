@@ -1,9 +1,15 @@
+import styled from 'styled-components';
+import infoData from '../../data/info.json';
+
+// styled-compoenents
+
+
 const HeroSection = () => {
+
   return (
-    <section>
-      <h1>Alex is a designer who uses code and currently freelances as web developer and Graphic Designer based in Stockholm. You can contact him via email or instagram.
-      </h1>
-    </section>
+    <HeroSection>
+      <heroText>{infoData.hero.content}</heroText>
+    </HeroSection>
   )
 }
 export default HeroSection;
