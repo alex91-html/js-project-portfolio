@@ -1,28 +1,33 @@
 
-import React from 'react';
+import styled from "styled-components";
 import Tag from "./ProjectTags.jsx";
 import ProjectLink from "./ProjectLink.jsx";
 
+
+
+
+
+
 const ProjectCard = ({ name, image, description, tags, netlify, github }) => {
   return (
-    <div>
-      {image && <img src={`/assets/${image}`} alt={name} />}
+    <CardWrapper>
+      {image && <Image src={`/assets/${image}`} alt={name} />}
 
-      <div>
+      <TagContainer>
         {tags.map((tag, index) => (
           <Tag key={index} text={tag} />
         ))}
-      </div>
+      </TagContainer>
 
-      <h3>{name}</h3>
+      <Title>{name}</Title>
 
-      <p>{description}</p>
+      <Description>{description}</Description>
 
-      <div>
+      <LinksContainer>
         <ProjectLink label="Live demo" href={netlify} />
         <ProjectLink label="View Code" href={github} />
-      </div>
-    </div>
+      </LinksContainer>
+    </CardWrapper>
   );
 };
 
