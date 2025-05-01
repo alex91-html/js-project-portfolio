@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import infoData from '../../data/info.json';
+import { mediaQueries } from '../../styles/media';
 
 // styled-compoenents
 const HeroWrapper = styled.section`
@@ -13,8 +14,12 @@ padding: 0 16px;
 
 
 const HeroText = styled.h1`
-font-size: 1rem;
+font-size: ${({ theme }) => theme.fontSizes.h1}; 
 letter-spacing: 0.05em;
+
+@media (min-width: 768px) {
+    font-size: ${({ theme }) => theme.fontSizes.h1}; 
+  }
 `;
 
 const HeroSection = () => {

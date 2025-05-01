@@ -17,6 +17,19 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background: ${({ theme }) => theme.colors.background};
+    font-size: ${({ theme }) => theme.fontSizes.body}; 
+  }
+
+  h1 {
+    font-size: ${({ theme }) => theme.fontSizes.h1}; 
+  }
+
+  h2 {
+    font-size: ${({ theme }) => theme.fontSizes.h2}; 
+  }
+
+  h3 {
+    font-size: ${({ theme }) => theme.fontSizes.h3}; 
   }
 `;
 
