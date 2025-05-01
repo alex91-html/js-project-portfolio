@@ -26,6 +26,34 @@
       ],
       "netlify": "link",
       "github": "link"
+    },
+    {
+      "name": "Quiz",
+      "image": "quiz-site.png",
+      "description": "Lemonade is tastier the more you drink it. The more you drink lemonade, the more you want to drink it. The more you drink lemonade, the more you want to drink it. The more you drink lemonade, the more you want to drink it.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "APIs"
+      ],
+      "netlify": "link",
+      "github": "link"
+    },
+    {
+      "name": "Recepie app",
+      "image": "recipe-library.png",
+      "description": "Lemonade is tastier the more you drink it. The more you drink lemonade, the more you want to drink it. The more you drink lemonade, the more you want to drink it. The more you drink lemonade, the more you want to drink it.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "APIs"
+      ],
+      "netlify": "link",
+      "github": "link"
     }
   ]
 }

@@ -7,6 +7,8 @@ const StyledTitle = styled.h2`
   // color: ${({ theme }) => theme.colors.text};
   color: orange;
 
+// add media query 
+
 `;
 
 const SectionTitle = ({ title }) => {
