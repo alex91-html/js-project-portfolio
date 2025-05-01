@@ -1,9 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-@import url(https://use.typekit.net/zoj7yqa.css);
-
-
   * {
     margin: 0;
     padding: 0;
