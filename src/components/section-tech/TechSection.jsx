@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 import infoData from '../../data/info.json';
+import SectionTitle from "../common/SectionTitle.jsx";
+
 import { mediaQueries } from '../../styles/media';
 
-const TechWrapper = styled.section`
+const SectionWrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,14 +38,15 @@ const TechItem = styled.li``;
 
 const TechSection = () => {
   return (
-    <TechWrapper>
-      <TechTitle>{infoData.tech.title}</TechTitle>
+    <SectionWrapper>
+      {/* <TechTitle>{infoData.tech.title}</TechTitle> */}
+      <SectionTitle title={infoData.tech.title} />
       <TechList>
         {infoData.tech.items.map((item, index) => (
           <TechItem key={index}>{item}{index < infoData.tech.items.length - 1 && ','}</TechItem>
         ))}
       </TechList>
-    </TechWrapper>
+    </SectionWrapper>
   );
 };
 

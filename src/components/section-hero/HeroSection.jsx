@@ -3,7 +3,7 @@ import infoData from '../../data/info.json';
 import { mediaQueries } from '../../styles/media';
 
 // styled-compoenents
-const HeroWrapper = styled.section`
+const SectionWrapper = styled.section`
 display: flex;
 justify-content: center;
 align-items: center;
@@ -25,9 +25,9 @@ letter-spacing: 0.05em;
 const HeroSection = () => {
 
   return (
-    <HeroWrapper>
-      <HeroText>>  {infoData.hero.content}</HeroText>
-    </HeroWrapper>
+    <SectionWrapper>
+      <HeroText>{infoData.hero.content}</HeroText>
+    </SectionWrapper>
   )
 }
 export default HeroSection;
