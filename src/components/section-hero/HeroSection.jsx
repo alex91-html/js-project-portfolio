@@ -8,7 +8,7 @@ justify-content: center;
 align-items: center;
 height: 100vh;
 padding: 0 16px;
-text-align: center;
+/* text-align: center; */
 `;
 
 
@@ -21,7 +21,7 @@ const HeroSection = () => {
 
   return (
     <HeroWrapper>
-      <HeroText>{infoData.hero.content}</HeroText>
+      <HeroText>>  {infoData.hero.content}</HeroText>
     </HeroWrapper>
   )
 }
