@@ -16,13 +16,18 @@
 - [x] created common component folder and component for section titles
 - [x] first styling of project section
 - [x] style info section
-- [] add media querry on secton title
-- [] add navbar
-- [] further style hero
+- [x] add navbar
+- [x] further style hero
+
+- - - 
+
 - [] furher style tech skills
 - [] further styling the projects
+- [] see if i need a separate info section component or could i have everything inside the app?
 - [] further styling the infoSection
-- [] add a nav bar
+  - [] see if i should add different title component for each subSection
+
+- [] add media querry on secton title <!-- ?? -->  
 
 = = =
 
