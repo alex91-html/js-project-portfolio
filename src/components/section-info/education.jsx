@@ -1,5 +1,7 @@
 
+import styled from "styled-components";
 import infoData from "../../data/info.json";
+import SectionTitle from "../common/SectionTitle";
 
 const Education = () => {
   return (

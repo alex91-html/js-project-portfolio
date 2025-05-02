@@ -1,17 +1,23 @@
 
+import styled from "styled-components";
 import infoData from "../../data/info.json";
+import SectionTitle from "../common/SectionTitle.jsx";
+
+const ServicesWrapper = styled.div``;
+const ServicesList = styled.ul``
+const ServiceItem = styled.li``
+
 
 const Services = () => {
   return (
-    <div>
-      <h2>{infoData.services.title}</h2>
-      <ul>
+    <ServicesWrapper>
+      <SectionTitle title={infoData.services.title} />
+      <ServicesList>
         {infoData.services.content.map((service, index) => (
-          <li key={index}>{service}
-          </li>
+          <ServiceItem key={index}>{service}</ServiceItem>
         ))}
-      </ul>
-    </div>
+      </ServicesList>
+    </ServicesWrapper>
   )
 }
 export default Services;
