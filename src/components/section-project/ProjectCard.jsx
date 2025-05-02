@@ -10,7 +10,7 @@ const CardWrapper = styled.div`
   margin-bottom: 128px;
 
   ${mediaQueries.desktop} {
-    flex-direction: ${({ reverse }) => (reverse ? "row-reverse" : "row")}; 
+    flex-direction: ${({ $reverse }) => ($reverse ? "row-reverse" : "row")}; 
     align-items: flex-start;
   }
 `;
@@ -53,7 +53,7 @@ const LinksContainer = styled.div`
 
 const ProjectCard = ({ name, image, description, tags, netlify, github, reverse }) => {
   return (
-    <CardWrapper reverse={reverse}>
+    <CardWrapper $reverse={reverse}>
       {image && <Image src={`/assets/${image}`} alt={name} />}
       <Content>
         <TagContainer>
