@@ -22,6 +22,7 @@
 - - - 
 
 - [x] furher style tech skills
+- [x] add animation on scroll
 - [] further styling the projects
 - [] see if i need a separate info section component or could i have everything inside the app?
 - [] further styling the infoSection

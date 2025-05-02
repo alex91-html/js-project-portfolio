@@ -12,7 +12,7 @@ const SectionWrapper = styled.section``;
 
 const InfoSection = () => {
   return (
-    <SectionWrapper id="info-section">
+    <SectionWrapper id="info-section" data-aos="fade-up">
       <About />
       <Services />
       <Tech />
