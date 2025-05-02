@@ -1,10 +1,15 @@
 
+import styled from "styled-components";
 import infoData from "../../data/info.json";
+import SectionTitle from "../common/SectionTitle.jsx";
+
+const SkillsWrapper = styled.div``;
+
 
 const Skills = () => {
   return (
-    <div>
-      <h2>{infoData.skills.title}</h2>
+    <SkillsWrapper>
+      <SectionTitle title={infoData.skills?.title || "Skills"} />
       <div>
         {Object.entries(infoData.skills.categories).map(([category, skills], index) => (
           <div key={index}>
@@ -17,7 +22,7 @@ const Skills = () => {
           </div>
         ))}
       </div>
-    </div>
+    </SkillsWrapper>
   );
 };
 

@@ -14,9 +14,14 @@
 - [x] start styling the hero sections
 - [x] style tech section
 - [x] created common component folder and component for section titles
+- [x] first styling of project section
+- [x] style info section
 - [] add media querry on secton title
-- [x] style project section
-- [] style info section
+- [] add navbar
+- [] further style hero
+- [] furher style tech skills
+- [] further styling the projects
+- [] further styling the infoSection
 - [] add a nav bar
 
 = = =

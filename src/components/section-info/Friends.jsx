@@ -1,10 +1,14 @@
-
+import styled from "styled-components";
 import infoData from "../../data/info.json";
+import SectionTitle from "../common/SectionTitle";
+
+const FriendsWrapper = styled.div``;
+
 
 const Friends = () => {
   return (
-    <div>
-      <h2>{infoData.friends.title}</h2>
+    <FriendsWrapper>
+      <SectionTitle title={infoData.friends.title} />
       <ul>
         {infoData.friends.content.map((friend, index) => (
           <li key={index}>
@@ -14,7 +18,7 @@ const Friends = () => {
           </li>
         ))}
       </ul>
-    </div>
+    </FriendsWrapper>
   );
 };
 
