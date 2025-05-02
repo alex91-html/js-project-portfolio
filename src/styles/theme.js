@@ -13,6 +13,7 @@ export const theme = {
     h1: "clamp(1.6rem, 4vw, 2rem)",
     h2: "clamp(1.5rem, 3.5vw, 1.75rem)",
     h3: "clamp(1.5rem, 3vw, 1.5rem)",
+    navLink: "clamp(1rem, 2vw, 1.25rem)",
   },
 };
 

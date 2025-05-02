@@ -12,13 +12,17 @@ const NavbarWrapper = styled.nav`
   z-index: 1000;
   transform: ${({ isVisible }) => (isVisible ? "translateY(0)" : "translateY(-100%)")};
   transition: transform 0.3s ease-in-out;
+
+
+
+
 `;
 
 const NavLink = styled.a`
   text-decoration: none;
   margin-left: 1.5rem;
   cursor: pointer;
-
+  font-size: ${({ theme }) => theme.fontSizes.navLink};
   &:hover {
     text-decoration: underline;
   }
