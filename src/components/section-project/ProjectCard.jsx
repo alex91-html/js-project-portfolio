@@ -44,7 +44,6 @@ const Title = styled.h3`
 
 const Description = styled.p`
   font-size: ${({ theme }) => theme.fontSizes.body};
-
 `;
 
 const LinksContainer = styled.div`

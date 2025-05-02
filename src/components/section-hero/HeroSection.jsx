@@ -17,7 +17,7 @@ const HeroText = styled.h1`
 font-size: ${({ theme }) => theme.fontSizes.h1}; 
 letter-spacing: 0.05em;
 
-@media (min-width: 768px) {
+ ${mediaQueries.tablet} {
     font-size: ${({ theme }) => theme.fontSizes.h1}; 
   }
 `;
