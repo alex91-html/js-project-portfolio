@@ -7,19 +7,20 @@ const SectionWrapper = styled.section`
 display: flex;
 justify-content: center;
 align-items: center;
+text-align: center;
 height: 100vh;
 padding: 0 16px;
-/* text-align: center; */
 `;
 
 
 const HeroText = styled.h1`
-font-size: ${({ theme }) => theme.fontSizes.h1}; 
-letter-spacing: 0.05em;
+hyphens: auto;
+overflow-wrap: break-word;
+word-wrap: break-word;
 
- ${mediaQueries.tablet} {
-    font-size: ${({ theme }) => theme.fontSizes.h1}; 
-  }
+${mediaQueries.desktop} {
+  max-width: 60%;
+}
 `;
 
 const HeroSection = () => {

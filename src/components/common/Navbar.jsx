@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react";
 import styled from "styled-components";
 
+
+
+
+
 const NavbarWrapper = styled.nav`
   position: fixed;
   top: 0;

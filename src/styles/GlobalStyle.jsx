@@ -33,3 +33,5 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 
+// NOTES:
+// The global styles are applied to all elements in the application. 

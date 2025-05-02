@@ -9,3 +9,7 @@ export const mediaQueries = {
   tablet: `@media (min-width: ${breakpoints.tablet})`,
   desktop: `@media (min-width: ${breakpoints.desktop})`,
 };
+
+
+// NOTES:
+// media queries for different screen sizes
