@@ -14,7 +14,7 @@ const SelectedProjects = styled.div`
 
 const ProjectsSection = () => {
   return (
-    <SectionWrapper data-aos="fade-up">
+    <SectionWrapper>
       <SectionTitle title={projectsData.title} />
       <SelectedProjects>
         {projectsData.projects.map((project, index) => (

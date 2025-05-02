@@ -1,6 +1,5 @@
 
 import { createGlobalStyle } from "styled-components";
-import "aos/dist/aos.css"
 
 export const GlobalStyle = createGlobalStyle`
   * {
