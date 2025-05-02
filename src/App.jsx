@@ -14,7 +14,9 @@ import Navbar from "./components/common/Navbar.jsx";
 export const App = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 1200,
+      easing: "ease-in-out-sine",
+      offset: 50,
       once: true,
       mirror: false,
     })
