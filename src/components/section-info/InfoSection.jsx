@@ -5,8 +5,9 @@ import Skills from "./SkillsSummery.jsx";
 import Education from "./Education.jsx";
 import Contact from "./Contact.jsx";
 import Friends from "./Friends.jsx";
+import Tech from "./Tech.jsx";
 
-const SectionWrapper = styled.div``;
+const SectionWrapper = styled.section``;
 
 
 const InfoSection = () => {
@@ -14,6 +15,7 @@ const InfoSection = () => {
     <SectionWrapper id="info-section">
       <About />
       <Services />
+      <Tech />
       <Skills />
       <Education />
       <Contact />

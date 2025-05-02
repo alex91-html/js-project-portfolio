@@ -21,7 +21,7 @@
 
 - - - 
 
-- [] furher style tech skills
+- [x] furher style tech skills
 - [] further styling the projects
 - [] see if i need a separate info section component or could i have everything inside the app?
 - [] further styling the infoSection

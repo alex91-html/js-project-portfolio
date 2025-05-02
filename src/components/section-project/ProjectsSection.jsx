@@ -4,8 +4,6 @@ import ProjectCard from "./ProjectCard.jsx";
 import SectionTitle from "../common/SectionTitle.jsx";
 
 const SectionWrapper = styled.section`
-  padding: 64px 16px;
-  background-color: ${({ theme }) => theme.colors.background};
 `;
 
 const SelectedProjects = styled.div`

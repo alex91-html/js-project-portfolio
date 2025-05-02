@@ -20,6 +20,21 @@ export const GlobalStyle = createGlobalStyle`
     font-size: ${({ theme }) => theme.fontSizes.body}; 
   }
 
+
+  section {
+    padding: clamp(1rem, 5vw, 2rem); 
+    margin-bottom: 64px; 
+  }
+
+  nav {
+    padding: clamp(1rem, 5vw, 2rem); 
+  }
+
+  section:last-child {
+    margin-bottom: 0; 
+  }
+
+
   h1 {
     font-size: ${({ theme }) => theme.fontSizes.h1}; 
   }
