@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { mediaQueries } from "../../styles/media";
-import Tag from "./ProjectTags.jsx";
+import Tag from "./Tags.jsx";
 import ProjectLink from "./ProjectLink.jsx";
 
 const CardWrapper = styled.div`
@@ -48,7 +48,14 @@ const Description = styled.p`
 
 const LinksContainer = styled.div`
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 1rem;
+
+  /* ${mediaQueries.tablet} {
+    flex-direction: row;
+    gap: 2rem;
+  } */
 `;
 
 const ProjectCard = ({ name, image, description, tags, netlify, github, reverse }) => {
