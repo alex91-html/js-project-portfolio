@@ -7,12 +7,15 @@ import ProjectsSection from "./components/section-project/ProjectsSection.jsx";
 import TechSection from "./components/section-tech/TechSection.jsx";
 import HeroSection from "./components/section-hero/HeroSection.jsx";
 import InfoSection from "./components/section-info/InfoSection.jsx";
+import Navbar from "./components/common/Navbar.jsx";
+
 
 
 export const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
+      <Navbar />
       <div>
         <HeroSection />
         <TechSection />
@@ -20,5 +23,6 @@ export const App = () => {
         <InfoSection />
       </div>
     </ThemeProvider >
+
   );
 };

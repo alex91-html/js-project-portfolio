@@ -11,7 +11,7 @@ const SectionWrapper = styled.div``;
 
 const InfoSection = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="info-section">
       <About />
       <Services />
       <Skills />
