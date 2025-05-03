@@ -6,13 +6,13 @@ const ProjectButton = styled.button`
   color: #DCDCDC;
   border: 2px solid #333333;
   border-radius: 12px;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   cursor: pointer;
   
   a {
     display: inline-flex;
     align-items:center;
-    gap: 0.5rem;
+    gap: 1.5rem;
   }
 
   img {

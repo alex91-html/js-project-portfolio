@@ -5,7 +5,7 @@ display: inline-block;
 border: 2px solid #333333;
 /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 border-radius: 25px;
-padding: 0.5rem 1rem;
+padding: 0.5rem 2rem;
 /* background-color: #40FF00; */
 `;
 
