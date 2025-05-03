@@ -19,13 +19,13 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.text};
-  }
-
-
-  section {
     padding: clamp(1rem, 5vw, 2rem); 
-    margin-bottom: 64px; 
   }
+
+/* 
+  section {
+    margin-bottom: 64px; 
+  } */
 
   nav {
     padding: clamp(1rem, 5vw, 2rem); 

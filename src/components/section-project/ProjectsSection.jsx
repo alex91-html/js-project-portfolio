@@ -2,14 +2,23 @@ import styled from "styled-components";
 import projectsData from "../../data/projects.json";
 import ProjectCard from "./ProjectCard.jsx";
 import SectionTitle from "../common/SectionTitle.jsx";
+import { mediaQueries } from "../../styles/media.js";
 
 const SectionWrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+
+
+${mediaQueries.desktop} {
+  gap: 128px;
+  }
 `;
 
 const SelectedProjects = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+ 
 `;
 
 const ProjectsSection = () => {

@@ -8,12 +8,33 @@ import ViewCodeIcon from "../../assets/icons/view-code.svg";
 const CardWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 4rem;
   margin-bottom: 128px;
-
+  gap: 64px;
+  
   ${mediaQueries.desktop} {
+    gap: 125px;
     flex-direction: ${({ $reverse }) => ($reverse ? "row-reverse" : "row")}; 
     align-items: flex-start;
+  }
+`;
+
+
+const InfoWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  ;`
+
+const TextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  ${mediaQueries.desktop} {
+    flex-direction: column;
+    gap: 1.5rem;
+    /* max-width: 680px; */
+
   }
 `;
 
@@ -26,13 +47,6 @@ const Image = styled.img`
   ${mediaQueries.desktop} {
     width: 50%;
   }
-`;
-
-const Content = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
 `;
 
 const TagContainer = styled.div`
@@ -53,7 +67,7 @@ const LinksContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 8px;
 
   /* ${mediaQueries.tablet} {
     flex-direction: row;
@@ -65,21 +79,22 @@ const ProjectCard = ({ name, image, description, tags, netlify, github, reverse 
   return (
     <CardWrapper $reverse={reverse}>
       {image && <Image src={`/assets/${image}`} alt={name} />}
-      <Content>
-        <TagContainer>
-          {tags.map((tag, index) => (
-            <Tag key={index} text={tag} />
-          ))}
-        </TagContainer>
-        <Title>{name}</Title>
-        <Description>{description}</Description>
+      <InfoWrapper>
+        <TextContainer>
+          <TagContainer>
+            {tags.map((tag, index) => (
+              <Tag key={index} text={tag} />
+            ))}
+          </TagContainer>
+          <Title>{name}</Title>
+          <Description>{description}</Description>
+        </TextContainer>
+
         <LinksContainer>
-          <LinksContainer>
-            <ProjectLink label="Live demo" href={netlify} icon={<img src={LiveDemoIcon} alt="Live Demo Icon" />} />
-            <ProjectLink label="View Code" href={github} icon={<img src={ViewCodeIcon} alt="View Code Icon" />} />
-          </LinksContainer>
+          <ProjectLink label="Live demo" href={netlify} icon={<img src={LiveDemoIcon} alt="Live Demo Icon" />} />
+          <ProjectLink label="View Code" href={github} icon={<img src={ViewCodeIcon} alt="View Code Icon" />} />
         </LinksContainer>
-      </Content>
+      </InfoWrapper>
     </CardWrapper>
   );
 };
