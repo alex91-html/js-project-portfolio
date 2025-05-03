@@ -8,15 +8,29 @@ const ProjectButton = styled.button`
   border-radius: 12px;
   padding: 0.5rem 1rem;
   cursor: pointer;
-  `;
+  
+  a {
+    display: inline-flex;
+    align-items:center;
+    gap: 0.5rem;
+  }
+
+  img {
+    filter: invert(1);
+    width: 20px;
+    height: 20px;
+    /* padding: 0.25rem; */
+  }
+
+`;
 
 
 
-const ProjectLink = ({ label, href }) => {
+const ProjectLink = ({ label, href, icon }) => {
   return (
     <ProjectButton>
       <a href={href} target="_blank" rel="noopener noreferrer">
-        {label}
+        {icon && icon}{label}
       </a>
     </ProjectButton>
   );

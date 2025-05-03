@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { mediaQueries } from "../../styles/media";
 import Tag from "./Tags.jsx";
 import ProjectLink from "./ProjectLink.jsx";
+import LiveDemoIcon from "../../assets/icons/live-demo.svg";
+import ViewCodeIcon from "../../assets/icons/view-code.svg";
 
 const CardWrapper = styled.div`
   display: flex;
@@ -19,6 +21,7 @@ const Image = styled.img`
   width: 100%;
   height: auto;
   border-radius: 8px;
+  box-shadow: 0px 4px 54.6px -8px rgba(0, 0, 0, 0.25);
 
   ${mediaQueries.desktop} {
     width: 50%;
@@ -71,8 +74,10 @@ const ProjectCard = ({ name, image, description, tags, netlify, github, reverse 
         <Title>{name}</Title>
         <Description>{description}</Description>
         <LinksContainer>
-          <ProjectLink label="Live demo" href={netlify} />
-          <ProjectLink label="View Code" href={github} />
+          <LinksContainer>
+            <ProjectLink label="Live demo" href={netlify} icon={<img src={LiveDemoIcon} alt="Live Demo Icon" />} />
+            <ProjectLink label="View Code" href={github} icon={<img src={ViewCodeIcon} alt="View Code Icon" />} />
+          </LinksContainer>
         </LinksContainer>
       </Content>
     </CardWrapper>
