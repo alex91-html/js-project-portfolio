@@ -10,7 +10,6 @@ flex-direction: column;
 const Content = styled.p`
 max-width: 800px;
 width: 100%;
-line-height: 1.2; 
 
 ${mediaQueries.desktop} { 
   max-width: 50%;
