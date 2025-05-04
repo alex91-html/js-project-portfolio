@@ -8,7 +8,6 @@ import Friends from "./Friends.jsx";
 import Tech from "./Tech.jsx";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { i } from "framer-motion/client";
 import { mediaQueries } from "../../styles/media.js";
 
 
