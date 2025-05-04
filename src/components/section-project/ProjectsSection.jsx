@@ -31,7 +31,7 @@ const ProjectsSection = () => {
 
   const AnimatedComponent = ({ children }) => {
     const ref = useRef(null);
-    const isInView = useInView(ref, { once: true });
+    const isInView = useInView(ref);
 
     return (
       <AnimatedProject
