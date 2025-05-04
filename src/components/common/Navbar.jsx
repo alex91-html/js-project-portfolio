@@ -1,10 +1,6 @@
 import { useState, useEffect } from "react";
 import styled from "styled-components";
 
-
-
-
-
 const NavbarWrapper = styled.nav`
   position: fixed;
   top: 0;
@@ -14,13 +10,12 @@ const NavbarWrapper = styled.nav`
   display: flex;
   justify-content: flex-end;
   z-index: 1000;
-  transform: ${({ isVisible }) => (isVisible ? "translateY(0)" : "translateY(-100%)")};
+  transform: ${({ $isVisible }) => ($isVisible ? "translateY(0)" : "translateY(-100%)")};
   transition: transform 0.3s ease-in-out;
 `;
 
 const NavLink = styled.a`
   text-decoration: none;
-
   cursor: pointer;
   font-size: ${({ theme }) => theme.fontSizes.navLink};
   &:hover {
@@ -62,7 +57,7 @@ const Navbar = () => {
   };
 
   return (
-    <NavbarWrapper isVisible={isVisible}>
+    <NavbarWrapper $isVisible={isVisible}>
       <NavLink onClick={scrollToInfo}>Info</NavLink>
       <NavLink href="mailto:a.ubelhor@gmail.com">Say Hi</NavLink>
     </NavbarWrapper>
