@@ -3,7 +3,7 @@
   "projects": [
     {
       "name": "Portfolio Site",
-      "image": "business-site.png",
+      "image": "portfolio.png",
       "description": "This is the current portfolio site, built with React and styled Components. It features a responsive design, smooth scrolling, and a clean layout.",
       "tags": [
         "HTML5",

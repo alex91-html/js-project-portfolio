@@ -10,7 +10,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { i } from "framer-motion/client";
 import { mediaQueries } from "../../styles/media.js";
-i
+
 
 
 const SectionWrapper = styled.section`
