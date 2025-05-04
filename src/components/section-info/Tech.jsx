@@ -6,29 +6,18 @@ import { mediaQueries } from '../../styles/media.js';
 const TechWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-
-
-  ${mediaQueries.desktop} {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    text-align: left;
-  }
+  align-items: left;
 `;
 
 const TechList = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem; 
-  margin-top: 32px;
-
-  ${mediaQueries.tablet} {
-    justify-content: flex-start;
-    margin-top: 0;
-  }
+  gap: 0.5rem; 
+  
+  ${mediaQueries.desktop} { 
+    gap: 1rem; 
+    max-width: 50%;
+}
 `;
 
 const TechItem = styled.li`

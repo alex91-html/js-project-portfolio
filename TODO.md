@@ -38,6 +38,7 @@
 
 - [x] further styling the infoSection
   - [x] fix spacing
+  - [x] fix margintop
   - [] decide about the titles
 
 
@@ -48,6 +49,7 @@
 - [] add animations
 - [] add svg icon
 
+- [] should I include services or not? 
 
 - [] fix project text 50%?
 - [] modify the figma design to look similar to the site?

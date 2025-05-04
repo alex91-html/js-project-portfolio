@@ -18,7 +18,7 @@ const InfoSection = () => {
   return (
     <SectionWrapper id="info-section">
       <About />
-      <Services />
+      {/* <Services /> */}
       <Tech />
       <Skills />
       <Education />
