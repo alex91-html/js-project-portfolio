@@ -34,7 +34,9 @@ export const GlobalStyle = createGlobalStyle`
     padding: clamp(1rem, 5vw, 2rem); 
   }
 
+
   section:last-child {
+    
     margin-bottom: 0; 
     padding-top: 0.5rem;
   

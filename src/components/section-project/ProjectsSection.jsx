@@ -9,6 +9,7 @@ import { useRef } from "react";
 const SectionWrapper = styled.section`
   display: flex;
   flex-direction: column;
+  margin-bottom: 5rem;
 `;
 
 const SelectedProjects = styled.div`

@@ -8,7 +8,6 @@ import ViewCodeIcon from "../../assets/icons/view-code.svg";
 const CardWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: 128px;
   gap: 2rem;
   
   ${mediaQueries.desktop} {
