@@ -2,6 +2,7 @@
 import styled from "styled-components";
 import infoData from "../../data/info.json";
 import SectionTitle from "../common/SectionTitle";
+import { mediaQueries } from "../../styles/media.js";
 
 const EducationWrapper = styled.div``;
 const EducationList = styled.ul``;

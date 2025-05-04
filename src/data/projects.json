@@ -51,7 +51,7 @@
         "JavaScript",
         "WCAG"
       ],
-      "netlify": "link",
+      "netlify": "https://quiz-accessibility.netlify.app/",
       "github": "https://github.com/alex91-html/js-project-accessibility/tree/main"
     },
     {
