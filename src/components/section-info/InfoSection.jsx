@@ -31,8 +31,8 @@ const AnimatedSection = styled(motion.div)`
 
 const InfoSection = () => {
   const sectionVariants = {
-    hidden: { opacity: 0 }, // Start fully transparent
-    visible: { opacity: 1 }, // Fade in to full opacity
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
   };
 
   const AnimatedComponent = ({ children }) => {
