@@ -3,10 +3,20 @@ import styled from "styled-components";
 
 const ProjectButton = styled.button`
   background-color: black;
+  align-items:center;
+  display: flex;
+  justify-content: space-between;
+  /* text-align: left; */
   color: #DCDCDC;
-  border: 2px solid #333333;
+  border: transparent;
+  /* padding: 0px 16px; */
+  /* width: 303px; */
+  /* height: 48px; */
   border-radius: 12px;
-  padding: 0.5rem 2rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.4rem;
+  padding-left: 1rem;
+  padding-right: 6rem;
   cursor: pointer;
   
   a {
@@ -17,8 +27,8 @@ const ProjectButton = styled.button`
 
   img {
     filter: invert(1);
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     /* padding: 0.25rem; */
   }
 
