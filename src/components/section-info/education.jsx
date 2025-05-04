@@ -1,8 +1,6 @@
-
 import styled from "styled-components";
 import infoData from "../../data/info.json";
 import SectionTitle from "../common/SectionTitle";
-
 
 const EducationWrapper = styled.div``;
 const EducationList = styled.ul``;
@@ -21,14 +19,11 @@ const Education = () => {
     <EducationWrapper>
       <SectionTitle title={infoData.education?.title || "Education"} />
       <EducationList>
-        {education.map((item, index) => {
-          const [school, program] = item.split(" – ");
-          return (
-            <EducationItem key={index}>
-              <span className="school">{school}</span> – {program}
-            </EducationItem>
-          );
-        })}
+        {education.map((item, index) => (
+          <EducationItem key={index}>
+            <span className="school">{item.school}</span> – {item.program}
+          </EducationItem>
+        ))}
       </EducationList>
     </EducationWrapper>
   );
