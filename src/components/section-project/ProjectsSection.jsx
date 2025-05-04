@@ -7,18 +7,18 @@ import { mediaQueries } from "../../styles/media.js";
 const SectionWrapper = styled.section`
   display: flex;
   flex-direction: column;
-  gap:4rem; 
-
-
-${mediaQueries.desktop} {
-  gap: 8rem;
-  }
 `;
 
 const SelectedProjects = styled.div`
   display: flex;
   flex-direction: column;
- 
+  gap:4rem; 
+
+
+  ${mediaQueries.desktop} {
+  gap: 8rem;
+  }
+
 `;
 
 const ProjectsSection = () => {

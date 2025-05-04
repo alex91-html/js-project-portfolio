@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.text};
-    padding: clamp(1rem, 5vw, 2rem); 
+    padding: clamp(1rem, 5vw, 5rem); 
   }
 
 

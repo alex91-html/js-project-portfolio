@@ -34,7 +34,7 @@
   - [x] add the projects links
   - [x] add the technology Tag and the text for each project
   - [x] fix the link btn add hove and so on
-  - [] fix the project card
+  - [x] fix the project card
 
 - [] further styling the infoSection
   - [] see if i should add different title component for each subSection

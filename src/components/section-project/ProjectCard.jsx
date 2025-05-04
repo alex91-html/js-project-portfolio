@@ -9,10 +9,10 @@ const CardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 128px;
-  gap: 64px;
+  gap: 2rem;
   
   ${mediaQueries.desktop} {
-    gap: 125px;
+    gap: 5rem;
     flex-direction: ${({ $reverse }) => ($reverse ? "row-reverse" : "row")}; 
     align-items: flex-start;
   }
