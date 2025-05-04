@@ -10,10 +10,10 @@ export const theme = {
   },
   fontSizes: {
     body: "clamp(14px, 1.2vw, 1.5rem)",
-    h1: "clamp(1rem, 5vw, 3rem)",
+    h1: "clamp(1rem, 5vw, 2rem)",
     h2: "clamp(1.2rem, 4vw, 2.5rem)",
     h3: "clamp(1.2rem, 3vw, 2rem)",
-    navLink: "clamp(1rem, 2.5vw, 1.25rem)",
+    navLink: "clamp(1rem, 2.5vw, 1.5rem)",
   },
 };
 

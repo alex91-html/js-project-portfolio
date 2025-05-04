@@ -9,7 +9,6 @@ justify-content: center;
 align-items: center;
 text-align: center;
 height: 100vh;
-/* padding: 0 16px; */
 `;
 
 
@@ -19,7 +18,7 @@ overflow-wrap: break-word;
 word-wrap: break-word;
 
 ${mediaQueries.desktop} {
-  max-width: 80%;
+  max-width: 60%;
 }
 `;
 

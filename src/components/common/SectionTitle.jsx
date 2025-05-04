@@ -4,7 +4,7 @@ import { mediaQueries } from "../../styles/media";
 const StyledTitle = styled.h2`
   font-size: ${({ theme }) => theme.fontSizes.h2};
   margin-bottom: 1rem;
- font-weight: bold;
+ /* font-weight: bold; */
  text-decoration: underline;
 `;
 
