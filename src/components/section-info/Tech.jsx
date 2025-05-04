@@ -22,12 +22,12 @@ const TechList = styled.ul`
 
 const TechItem = styled.li`
   padding: 0.5rem 1rem;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.211);
   transition: transform 0.2s ease-in-out;
 
   &:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    transform: scale(1.05); 
   }
 `;
 

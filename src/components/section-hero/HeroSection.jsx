@@ -19,7 +19,7 @@ overflow-wrap: break-word;
 word-wrap: break-word;
 
 ${mediaQueries.desktop} {
-  max-width: 50%;
+  max-width: 80%;
 }
 `;
 

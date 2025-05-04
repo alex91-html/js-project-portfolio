@@ -6,13 +6,13 @@ import { mediaQueries } from "../../styles/media.js";
 const ContactWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  
+  /* gap: 1.5rem;  */
 `;
 
 const ContactText = styled.p`
-  font-size: 1rem;
-  /* line-height: 1.5; */
   color: #333333;
+  margin-bottom: 1.5rem;
 
 ${mediaQueries.desktop} { 
   max-width: 50%;
@@ -37,7 +37,6 @@ const Link = styled.a`
   `;
 
 const ContactItem = styled.li`
-  font-size: 1rem;
   color: #333333;
 
 `;

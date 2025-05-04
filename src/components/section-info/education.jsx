@@ -7,7 +7,6 @@ import { mediaQueries } from "../../styles/media.js";
 const EducationWrapper = styled.div``;
 const EducationList = styled.ul``;
 const EducationItem = styled.li`
-  font-size: ${({ theme }) => theme.fontSizes.body};
   color: ${({ theme }) => theme.colors.text};
   line-height: 1.6;
 

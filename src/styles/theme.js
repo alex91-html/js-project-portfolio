@@ -9,11 +9,11 @@ export const theme = {
     fontStyle: "normal"
   },
   fontSizes: {
-    body: "clamp(1rem, 1vw, 1rem)",
-    h1: "clamp(1rem, 4vw, 2rem)",
-    h2: "clamp(1rem, 3.5vw, 1.75rem)",
-    h3: "clamp(1rem, 3vw, 1.5rem)",
-    navLink: "clamp(1rem, 2vw, 1.25rem)",
+    body: "clamp(14px, 1.2vw, 1.5rem)",
+    h1: "clamp(1rem, 5vw, 3rem)",
+    h2: "clamp(1.2rem, 4vw, 2.5rem)",
+    h3: "clamp(1.2rem, 3vw, 2rem)",
+    navLink: "clamp(1rem, 2.5vw, 1.25rem)",
   },
 };
 

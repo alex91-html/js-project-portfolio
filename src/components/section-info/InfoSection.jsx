@@ -8,12 +8,23 @@ import Friends from "./Friends.jsx";
 import Tech from "./Tech.jsx";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import { i } from "framer-motion/client";
+import { mediaQueries } from "../../styles/media.js";
+i
+
 
 const SectionWrapper = styled.section`
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  
+  ${mediaQueries.tablet} {
+    gap: 3rem;
+  }
+
 `;
+
+
 
 const AnimatedSection = styled(motion.div)`
 `;

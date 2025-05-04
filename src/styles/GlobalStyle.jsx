@@ -12,11 +12,11 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     list-style: none;
     font-family: ${({ theme }) => theme.fonts.body};  
+  } 
+  
+  body {
     font-size: ${({ theme }) => theme.fontSizes.body}; 
     font-weight: ${({ theme }) => theme.fonts.fontWeight};
-  }
-
-  body {
     background: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.text};
     line-height: 1.5; 

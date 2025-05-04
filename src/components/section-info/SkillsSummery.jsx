@@ -6,28 +6,24 @@ import { mediaQueries } from "../../styles/media.js";
 
 const SkillsWrapper = styled.div``;
 const CategoryHeading = styled.h3`
-display: inline-block;
-  border: 2px solid #333333;
-  border-radius: 25px;
-  padding: 0.5rem 2rem;
+  display: inline-block;
   color: #333333;
   background-color: white;
-  margin-bottom: 1rem;
+  text-decoration: underline;
+
 `;
 
 const SkillsList = styled.ul`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 3rem;
-
+  gap: 0.8rem;
 
   ${mediaQueries.tablet} {
   flex-direction: row;
-}
+  gap: 10rem;
+}`;
 
-
-`;
 
 
 const Skills = () => {
