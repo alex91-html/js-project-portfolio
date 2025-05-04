@@ -92,46 +92,45 @@
         "program": "Fullstack Web development."
       }
     ]
+  },
+  "contact": {
+    "title": "Contact",
+    "text": "I’m always open to new projects and collaborations. If you have something in mind—or just want to connect—feel free to reach out. I’m happy to share my graphic design portfolio and a more detailed CV upon request.",
+    "email": "a.ubelhor@gmail.com",
+    "content": [
+      {
+        "name": "Are.na",
+        "link": "https://www.are.na/alexander-ubelhor/channels"
+      },
+      {
+        "name": "Instagram",
+        "link": "https://www.instagram.com/alex91.jpg/"
+      },
+      {
+        "name": "GitHub",
+        "link": "https://github.com/alex91-html"
+      }
+    ]
+  },
+  "friends": {
+    "title": "Friends & Collaborators",
+    "content": [
+      {
+        "name": "Jurgis Lietunovas",
+        "link": "https://jurgis.info/"
+      },
+      {
+        "name": "Fabian Bergmark Näsman",
+        "link": "https://fabianbergmarknasman.com/?fbclid=PAZXh0bgNhZW0CMTEAAad6zNGzMPAU-W_ykPRKb53UgCW5Ih8JL9_R3lTH9XoljCN28cvyc2rAO7RGNg_aem_XaAjBoRSeyqNZp_euRzn7A"
+      },
+      {
+        "name": "Lova Ranung",
+        "link": "https://lovaranung.com/"
+      },
+      {
+        "name": "Matthew Lessner",
+        "link": "https://www.montelomax.com/"
+      }
+    ]
   }
-},
-"contact": {
-  "title": "Contact",
-  "text": "I’m always open to new projects and collaborations. If you have something in mind—or just want to connect—feel free to reach out. I’m happy to share my graphic design portfolio and a more detailed CV upon request.",
-  "email": "a.ubelhor@gmail.com",
-  "content": [
-    {
-      "name": "Are.na",
-      "link": "https://www.are.na/alexander-ubelhor/channels"
-    },
-    {
-      "name": "Instagram",
-      "link": "https://www.instagram.com/alex91.jpg/"
-    },
-    {
-      "name": "GitHub",
-      "link": "https://github.com/alex91-html"
-    }
-  ]
-},
-"friends": {
-  "title": "Friends & Collaborators",
-  "content": [
-    {
-      "name": "Jurgis Lietunovas",
-      "link": "https://jurgis.info/"
-    },
-    {
-      "name": "Fabian Bergmark Näsman",
-      "link": "https://fabianbergmarknasman.com/?fbclid=PAZXh0bgNhZW0CMTEAAad6zNGzMPAU-W_ykPRKb53UgCW5Ih8JL9_R3lTH9XoljCN28cvyc2rAO7RGNg_aem_XaAjBoRSeyqNZp_euRzn7A"
-    },
-    {
-      "name": "Lova Ranung",
-      "link": "https://lovaranung.com/"
-    },
-    {
-      "name": "Matthew Lessner",
-      "link": "https://www.montelomax.com/"
-    }
-  ]
-}
 }
