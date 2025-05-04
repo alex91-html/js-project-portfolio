@@ -10,7 +10,6 @@ export const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
     text-decoration: none;
     list-style: none;
-    transition: color 0.3s;
     font-family: ${({ theme }) => theme.fonts.body};  
     font-size: ${({ theme }) => theme.fontSizes.body}; 
     font-weight: ${({ theme }) => theme.fonts.fontWeight};
@@ -22,6 +21,11 @@ export const GlobalStyle = createGlobalStyle`
     padding: clamp(1rem, 5vw, 2rem); 
   }
 
+
+  button {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+  }
 /* 
   section {
     margin-bottom: 64px; 

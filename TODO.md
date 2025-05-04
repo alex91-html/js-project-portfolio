@@ -29,17 +29,18 @@
 - - -
 
 - [] further styling the projectsCards
-  - [] add the projects links
   - [x] add the icons to the btn 
   - [x] fix button a bit more
-  - [] add the technology Tag and the text for each project
+  - [x] add the projects links
+  - [x] add the technology Tag and the text for each project
+  - [x] fix the link btn add hove and so on
   - [] fix the project card
-- fix the titles on the entire site (on desktop seems good)
 
 - [] further styling the infoSection
   - [] see if i should add different title component for each subSection
-- [] add animations
 
+- [] fix the titles on the entire site (on desktop seems good)
+- [] add animations
 
 - [] modify the figma design to look similar to the site?
 
@@ -47,6 +48,7 @@
 
 - [] contact Tiago
 
+- [] deploy portfolio and accesibilty project and add link
 
 - on desktop the typography gerarchy seems to work, is on mobile and tablet that doest work.
 

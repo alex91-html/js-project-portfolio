@@ -2,21 +2,35 @@
   "title": "Selected Projects",
   "projects": [
     {
-      "name": "Business site",
+      "name": "Portfolio Site",
       "image": "business-site.png",
-      "description": "The car was ating a crockodile when it was hit by a truck. The truck was driven by the uncle of the crocodile. The uncle was driving the truck to the zoo when he saw the car. The car was going too fast and hit the truck. The truck was going too slow and hit the car.",
+      "description": "This is the current portfolio site, built with React and styled Components. It features a responsive design, smooth scrolling, and a clean layout.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React.js",
+        "Styled Components"
+      ],
+      "netlify": "link",
+      "github": "https://github.com/alex91-html/js-project-portfolio"
+    },
+    {
+      "name": "Business site project",
+      "image": "business-site.png",
+      "description": "This project is a web project created to learn the basics of responsive web design, CSS Grid and Flexbox layout, and DOM manipulation",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://designshop.netlify.app/",
+      "github": "https://github.com/alex91-html/js-project-business-site?tab=readme-ov-file"
     },
     {
       "name": "Weather app",
       "image": "weather-app.png",
-      "description": "Lemonade is tastier the more you drink it. The more you drink lemonade, the more you want to drink it. The more you drink lemonade, the more you want to drink it. The more you drink lemonade, the more you want to drink it.",
+      "description": "This project is a responsive weather app built with TypeScript, fetching data from the OpenWeather API. It shows the current weather, temperature, sunrise and sunset times, plus a 4-day forecast, all styled to match a selected design mockup.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -24,36 +38,34 @@
         "TypeScript",
         "APIs"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://watherrr.netlify.app/",
+      "github": "https://github.com/alex91-html/js-project-weather-app?tab=readme-ov-file"
     },
     {
-      "name": "Quiz",
+      "name": "Web Accessebility Quiz",
       "image": "quiz-site.png",
-      "description": "Lemonade is tastier the more you drink it. The more you drink lemonade, the more you want to drink it. The more you drink lemonade, the more you want to drink it. The more you drink lemonade, the more you want to drink it.",
+      "description": "A quiz about web accessibility where common accessibility guidelines were followed. The site is user-friendly and works for everyone, including those using screen readers, keyboards, and other assistive technologies.",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript",
-        "TypeScript",
-        "APIs"
+        "WCAG"
       ],
       "netlify": "link",
-      "github": "link"
+      "github": "https://github.com/alex91-html/js-project-accessibility/tree/main"
     },
     {
-      "name": "Recepie app",
+      "name": "Recipe Library",
       "image": "recipe-library.png",
-      "description": "Lemonade is tastier the more you drink it. The more you drink lemonade, the more you want to drink it. The more you drink lemonade, the more you want to drink it. The more you drink lemonade, the more you want to drink it.",
+      "description": "A functional recipe app that fetches recipes from an API and let users find recipes based on different filters and sorting options.",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript",
-        "TypeScript",
         "APIs"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://jsrecipelibrary.netlify.app/",
+      "github": "https://github.com/alex91-html/js-project-recipe-library"
     }
   ]
 }

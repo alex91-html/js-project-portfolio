@@ -2,13 +2,14 @@ import styled from "styled-components";
 
 
 const ProjectButton = styled.button`
-  background-color: black;
+  /* background-color: black; */
+  background-color:white;
   align-items:center;
   display: flex;
   justify-content: space-between;
   /* text-align: left; */
-  color: #DCDCDC;
-  border: transparent;
+  color: black;
+  border: solid 2px black;
   /* padding: 0px 16px; */
   /* width: 303px; */
   /* height: 48px; */
@@ -19,6 +20,19 @@ const ProjectButton = styled.button`
   padding-right: 6rem;
   cursor: pointer;
   
+  &:hover {
+    /* background-color:white; */
+    background-color: black;
+    border: solid 2px black;
+    color: #FFFFFF;
+
+    img {
+      filter: invert(1);
+      /* filter: none; */
+    }
+
+  }
+
   a {
     display: inline-flex;
     align-items:center;
@@ -26,7 +40,6 @@ const ProjectButton = styled.button`
   }
 
   img {
-    filter: invert(1);
     width: 30px;
     height: 30px;
     /* padding: 0.25rem; */

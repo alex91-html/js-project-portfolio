@@ -7,11 +7,11 @@ import { mediaQueries } from "../../styles/media.js";
 const SectionWrapper = styled.section`
   display: flex;
   flex-direction: column;
-  gap: 64px;
+  gap:4rem; 
 
 
 ${mediaQueries.desktop} {
-  gap: 128px;
+  gap: 8rem;
   }
 `;
 
