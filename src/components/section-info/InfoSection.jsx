@@ -7,7 +7,11 @@ import Contact from "./Contact.jsx";
 import Friends from "./Friends.jsx";
 import Tech from "./Tech.jsx";
 
-const SectionWrapper = styled.section``;
+const SectionWrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+`;
 
 
 const InfoSection = () => {

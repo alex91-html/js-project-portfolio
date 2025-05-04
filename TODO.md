@@ -36,19 +36,26 @@
   - [x] fix the link btn add hove and so on
   - [x] fix the project card
 
-- [] further styling the infoSection
-  - [] see if i should add different title component for each subSection
+- [x] further styling the infoSection
+  - [x] fix spacing
+  - [] decide about the titles
+
+
+- [] add project section margin top
+
 
 - [] fix the titles on the entire site (on desktop seems good)
 - [] add animations
+- [] add svg icon
 
+
+- [] fix project text 50%?
 - [] modify the figma design to look similar to the site?
+- [] deploy
 
-- [] deploy on figma
 
-- [] contact Tiago
+- [x] contact Tiago
 
-- [] deploy portfolio and accesibilty project and add link
 
 - on desktop the typography gerarchy seems to work, is on mobile and tablet that doest work.
 

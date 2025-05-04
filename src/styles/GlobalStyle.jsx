@@ -1,5 +1,6 @@
 
 import { createGlobalStyle } from "styled-components";
+import { mediaQueries } from "./media";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -26,10 +27,7 @@ export const GlobalStyle = createGlobalStyle`
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
     cursor: pointer;
   }
-/* 
-  section {
-    margin-bottom: 64px; 
-  } */
+
 
   nav {
     padding: clamp(1rem, 5vw, 2rem); 
@@ -37,7 +35,12 @@ export const GlobalStyle = createGlobalStyle`
 
   section:last-child {
     margin-bottom: 0; 
-  }
+    padding-top: 0.5rem;
+  
+    ${mediaQueries.desktop} {
+      padding-top:2rem;
+    }}
+  
 
 
   h1 {
