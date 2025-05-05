@@ -5,7 +5,6 @@ import { mediaQueries } from "../../styles/media.js";
 const AboutWrapper = styled.div`
 display: flex;
 flex-direction: column;
-/* gap: 0px; */
 `;
 const Content = styled.p`
 max-width: 800px;
@@ -17,12 +16,17 @@ ${mediaQueries.desktop} {
 `;
 
 
+
 const About = () => {
   return (
     <AboutWrapper>
       <SectionTitle title={infoData.about.title} />
-      <Content>{infoData.about.content}</Content>
+      <Content
+        dangerouslySetInnerHTML={{
+          __html: infoData.about.content.replace(/\n/g, "<br>"),
+        }}
+      />
     </AboutWrapper>
-  )
-}
+  );
+};
 export default About;
