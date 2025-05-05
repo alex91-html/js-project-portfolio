@@ -29,7 +29,6 @@
         "Motion Graphics",
         "3D Modeling",
         "Video Editing",
-        "Video Production",
         "Video creation",
         "User interface design",
         "Branding",
@@ -71,13 +70,12 @@
     "title": "Services",
     "content": [
       "Graphic Design",
-      "3D Design",
-      "Animation",
-      "Video Editing",
-      "Videography",
+      "Web Development",
       "Web Design",
-      "Visual Design",
-      "Web Development"
+      "Videography",
+      "Animation",
+      "3D Design",
+      "Video Editing"
     ]
   },
   "education": {
