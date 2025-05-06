@@ -32,7 +32,7 @@ const TextContainer = styled.div`
   ${mediaQueries.desktop} {
     flex-direction: column;
     gap: 1.5rem;
-    /* max-width: 680px; */
+
   }
 `;
 
