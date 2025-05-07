@@ -10,6 +10,7 @@ const NavbarWrapper = styled.nav`
   display: flex;
   justify-content: flex-end;
   z-index: 1000;
+  height: 60px;
   transform: ${({ $isVisible }) => ($isVisible ? "translateY(0)" : "translateY(-100%)")};
   transition: transform 0.3s ease-in-out;
 `;
