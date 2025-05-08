@@ -8,7 +8,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
-height: calc(100vh - 60px);
+height: 100vh;
 padding-top: 60px;
 `;
 
