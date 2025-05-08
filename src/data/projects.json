@@ -2,6 +2,21 @@
   "title": "Selected Projects",
   "projects": [
     {
+      "name": "Happy Thoughts App",
+      "image": "happy.png",
+      "description": "An app that allows users to share happy thoughts to each other. It features a responsive design, a form for submitting thoughts, and a list of all submitted thoughts. Made with React and Tailwind CSS, using useState and useEffect.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React.js",
+        "Tailwind CSS",
+        "APIs"
+      ],
+      "netlify": "https://happythoughtss.netlify.app/",
+      "github": "https://github.com/alex91-html/js-project-happy-thoughts"
+    },
+    {
       "name": "Portfolio Site",
       "image": "portfolio.png",
       "description": "This is the current portfolio site, built with React and styled Components. It features a responsive design, smooth scrolling, and a clean layout.",
