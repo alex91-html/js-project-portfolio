@@ -4,7 +4,7 @@
     {
       "name": "Happy Thoughts App",
       "image": "happy.png",
-      "description": "An app that allows users to share happy thoughts to each other. It features a responsive design, a form for submitting thoughts, and a list of all submitted thoughts. Made with React and Tailwind CSS, using useState and useEffect.",
+      "description": "An app that allows users to share happy thoughts. It features a responsive design, a form for submitting thoughts, and a list of all submitted thoughts. Made with React and Tailwind CSS, using useState, useEffect and API.",
       "tags": [
         "HTML5",
         "CSS3",
