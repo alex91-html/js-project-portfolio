@@ -4,12 +4,18 @@ import { mediaQueries } from '../../styles/media';
 
 // styled-compoenents
 const SectionWrapper = styled.section`
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-height: 100vh;
-padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: calc(100vh - 60px); 
+  padding: 1rem; 
+
+  ${mediaQueries.desktop} {
+    height: 100vh;
+    padding: 0; 
+  }
+
 `;
 
 
