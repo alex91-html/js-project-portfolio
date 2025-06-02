@@ -13,7 +13,7 @@ const EducationItem = styled.li`
   }
 `;
 
-const Education = () => {
+const Studies = () => {
   const education = infoData.education?.content || [];
   return (
     <EducationWrapper>
@@ -29,4 +29,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Studies;
