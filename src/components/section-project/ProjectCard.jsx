@@ -9,11 +9,12 @@ const CardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  
+
   ${mediaQueries.desktop} {
     gap: 5rem;
-    flex-direction: ${({ $reverse }) => ($reverse ? "row-reverse" : "row")}; 
-    align-items: flex-start;
+    flex-direction: ${({ $reverse }) => ($reverse ? "row-reverse" : "row")};
+    align-items: stretch; /* Ensures children fill the card height */
+    min-height: 350px;    /* Set a minimum height for alignment */
   }
 `;
 
@@ -22,7 +23,14 @@ const InfoWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 32px;
-  ;`
+
+  ${mediaQueries.desktop} {
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;         /* Fill card height */
+  }
+`
 
 const TextContainer = styled.div`
   display: flex;
@@ -44,6 +52,8 @@ const Image = styled.img`
 
   ${mediaQueries.desktop} {
     width: 50%;
+    height: 100%;         /* Make image fill the card height */
+    object-fit: cover;    /* Crop image to fit if needed */
   }
 `;
 
