@@ -15,7 +15,6 @@ const SectionWrapper = styled.section`
     height: 80vh;
     margin-bottom: 11rem;
   }
-
 `;
 
 
