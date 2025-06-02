@@ -72,9 +72,9 @@ const InfoSection = () => {
       <AnimatedComponent>
         <Clients />
       </AnimatedComponent>
-      <AnimatedComponent>
-        <Education />
-      </AnimatedComponent>
+
+      <Education />
+
       <AnimatedComponent>
         <Contact />
       </AnimatedComponent>
