@@ -8,12 +8,12 @@ const SectionWrapper = styled.section`
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: calc(100vh - 60px); 
-  padding: 1rem; 
+  height: 100vh;
+  
 
   ${mediaQueries.desktop} {
-    height: 100vh;
-    padding: 0; 
+    height: 80vh;
+    margin-bottom: 11rem;
   }
 
 `;
