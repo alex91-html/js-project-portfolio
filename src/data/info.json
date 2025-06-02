@@ -64,7 +64,7 @@
   },
   "about": {
     "title": "About",
-    "content": "Alexander Übelhör, Graphic Designer with coding skills and background in motion graphics, 3D animation.\n\nWith a BA in Graphic Design and freelance experience, I’ve worked across formats—from posters and digital layouts to animated visuals and short-form video content. Currently, I’m expanding my skill set through the Technigo Web Development bootcamp, deepening my knowledge of front-end and full-stack development.\n\nCurious by nature, I enjoy exploring new tools and creative methods that strengthen my core practice in design and development. Whether working solo or as part of a team, I try to bring adaptability, intention, and a genuine passion for visual arts and technology to every project.\n\nI'm interested in contemporary culture, art, and new media, and I also enjoy creatively exploring the intersections between them. In addition to applied work I continue a practice of personal and collaborative visual art and moving image work."
+    "content": "Currently, I'm expanding my skill set through the Technigo Web Development bootcamp, deepening my knowledge of front-end and full-stack development.\n\nMy journey began with Graphic Design, where I earned my BA at the Gerrit Rietveld Academy in Amsterdam. Subsequently, I started freelancing working across diverse formats: print design, digital layouts to motion graphics and short-form video while also working as an artist assistant.\n\nTools & technology has always been an area of interest and curiosity that I find strongly connected with the craft of design. The transition to web development feels natural—coding is another form of creative problem solving, and my design background can help me understand how users interact with interfaces. I'm looking forward to applying my newly acquired skills to the building of designs.\n\nRecently moved to Stockholm, I'm open to opportunities that let me combine my visual background with my growing development skills, whether as part of a collaborative team or on challenging solo projects. In addition to applied work, I continue a practice of personal and collaborative visual art and moving image work."
   },
   "services": {
     "title": "Services",
@@ -80,18 +80,18 @@
     "title": "Education",
     "content": [
       {
-        "school": "Gerrit Rietveld Academie",
-        "program": "BA Art & Design, Graphic Design."
-      },
-      {
         "school": "Technigo JavaScript Bootcamp",
         "program": "Fullstack Web development."
+      },
+      {
+        "school": "Gerrit Rietveld Academie",
+        "program": "BA Art & Design, Graphic Design."
       }
     ]
   },
   "contact": {
     "title": "Contact",
-    "text": "I’m always open to new projects and collaborations. If you have something in mind—or just want to connect—feel free to reach out. I’m happy to share my graphic design portfolio and a more detailed CV upon request.",
+    "text": "I’m always open to new projects and collaborations. If you have something in mind—or just want to connect—feel free to reach out.\n\nI’m happy to share my graphic design portfolio and a more detailed CV upon request.",
     "email": "a.ubelhor@gmail.com",
     "content": [
       {

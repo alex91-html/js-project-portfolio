@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import infoData from "../../data/info.json";
 import SectionTitle from "../common/SectionTitle.jsx";
@@ -45,7 +46,14 @@ const Contact = () => {
   return (
     <ContactWrapper>
       <SectionTitle title={infoData.contact.title} />
-      <ContactText>{infoData.contact.text}</ContactText>
+      <ContactText>
+        {infoData.contact.text.split('\n').map((line, i) => (
+          <React.Fragment key={i}>
+            {line}
+            <br />
+          </React.Fragment>
+        ))}
+      </ContactText>
       <ContactText>
         Email: <Link href={`mailto:${infoData.contact.email}`}>{infoData.contact.email}</Link>
       </ContactText>
