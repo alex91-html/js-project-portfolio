@@ -140,5 +140,30 @@
         "link": "https://www.tisato-sulzer.com/"
       }
     ]
+  },
+  "clients": {
+    "title": "Clients",
+    "content": "I have had the pleasure of working with a diverse range of clients, from local businesses to international organizations. Here are some of the clients I've collaborated with:",
+    "names": [
+      "Avoidstreet (NL)",
+      "in_n_out_fragrances (NL)",
+      "Valextra (IT)",
+      "Tisato & Sulzer Communication Design (CH)",
+      "Studio fORMATS aND mECHANISMS (NL)",
+      "Studiox01 (IT)",
+      "Primer",
+      "Klarna",
+      "Voi (DK)",
+      "Amazon Music Italia (IT)",
+      "Stedelijk Museum (NL)",
+      "International Social Service (CH)",
+      "Ecran Mobile film production (CH)",
+      "Vendredi Films (FR)",
+      "European Documentary Network (NL)",
+      "filmmaker Davide Tisato (CH)",
+      "Artist Gabriel Lester (NL)",
+      "Artist Deniz Eroglu (NL)",
+      "Artist Golin (NL)"
+    ]
   }
 }

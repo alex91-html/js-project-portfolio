@@ -7,17 +7,15 @@ import { mediaQueries } from "../../styles/media.js";
 const ContactWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  
-  /* gap: 1.5rem;  */
+
+    ${mediaQueries.desktop} { 
+  max-width: 80%;
+    }
 `;
 
 const ContactText = styled.p`
   color: #333333;
   margin-bottom: 1.5rem;
-
-${mediaQueries.desktop} { 
-  max-width: 50%;
-}
 
 `;
 

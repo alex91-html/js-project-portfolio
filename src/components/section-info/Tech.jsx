@@ -16,7 +16,6 @@ const TechList = styled.ul`
   
   ${mediaQueries.desktop} { 
     gap: 1rem; 
-    max-width: 50%;
 }
 `;
 
