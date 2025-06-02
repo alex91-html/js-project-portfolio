@@ -76,11 +76,6 @@ const LinksContainer = styled.div`
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-
-  /* ${mediaQueries.tablet} {
-    flex-direction: row;
-    gap: 2rem;
-  } */
 `;
 
 const ProjectCard = ({ name, image, description, tags, netlify, github, reverse }) => {
