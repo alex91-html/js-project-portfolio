@@ -127,11 +127,11 @@ const projectsSubtitles = projectsText.map(text => text.match(/[^.!?]+[.!?]+(\s|
 const infoText = [
   "This is the info section.",
   "It contains details about my journey, skills",
-  ", and experiences.",
+  "and experiences.",
   "Feel free to explore!",
   "And to contact me.",
   "I’m happy to share my design portfolio",
-  "and a more detailed CV upon request! ;)"
+  "and a more detailed CV upon request!"
 ];
 const infoSubtitles = infoText;
 

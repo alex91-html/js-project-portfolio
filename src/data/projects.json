@@ -2,6 +2,37 @@
   "title": "Selected Projects",
   "projects": [
     {
+      "name": "Todo App",
+      "image": "todo-app.png",
+      "description": "A Todo app built with React. It allows users to add, delete, and mark tasks as completed. The app uses local storage to persist data.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React.js",
+        "Zustand",
+        "Styled-components"
+      ],
+      "netlify": "https://alextodo-app.netlify.app/",
+      "github": "https://github.com/alex91-html/js-project-todo"
+    },
+    {
+      "name": "Docu Tabloid",
+      "image": "movies.png",
+      "description": "A documentary movide search app that allows users to search for documentaries, view details and rankings. Built with React, it uses the TMDB API to fetch data.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React.js",
+        "React Router",
+        "APIs",
+        "Vite"
+      ],
+      "netlify": "https://alexmovieapp.netlify.app/",
+      "github": "https://github.com/alex91-html/js-project-movies"
+    },
+    {
       "name": "Happy Thoughts App",
       "image": "happy.png",
       "description": "An app that allows users to share happy thoughts. It features a responsive design, a form for submitting thoughts, and a list of all submitted thoughts. Made with React and Tailwind CSS, using useState, useEffect and API.",
