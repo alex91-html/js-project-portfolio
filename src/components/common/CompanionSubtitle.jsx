@@ -9,8 +9,6 @@ const ToggleWrapper = styled.div`
   z-index: 2100;
   font-size: 1.2rem;
   font-family: inherit;
-  /* background: rgba(255, 255, 255, 0.7); */
-  /* padding: 0.3em 1em; */
   border-radius: 1.2em;
   border: 2px solid #000000;
   user-select: none;
@@ -89,7 +87,6 @@ const SubtitleText = styled.span`
   font-size: 1.1rem;
   font-weight: 200;
   transition: opacity 0.5s;
-  max-width: 95vw;
   text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.463);
   -webkit-text-stroke: 0.5px #000;
@@ -99,7 +96,6 @@ const SubtitleText = styled.span`
   ${mediaQueries.tablet} {
     font-size: 2rem;
     padding: 0.4em 2em;
-    max-width: 80vw;
     border-radius: 2rem;
   }
 
@@ -111,16 +107,33 @@ const SubtitleText = styled.span`
   }
 `;
 
-const heroText = "This website uses subtitles. Welcome to my Technigo Bootcamp portfolio. Here I'm sharing what I have been learning and coding so far, scroll down to see...";
-const heroSubtitles = heroText.match(/[^.!?]+[.!?]+(\s|$)/g) || [heroText];
+const heroText = [
+  "This website uses subtitles.",
+  "Welcome to my Technigo Bootcamp portfolio.",
+  "Here I'm sharing what I have been learning.",
+  "And coding so far.",
+  "Scroll down to see..."
+];
+const heroSubtitles = heroText;
 
 const projectsText = [
-  "Here are some of the course projects.", "Each one has a description, code, and live demo!",
-  "Enjoy ;)"];
+  "Here are some of the course projects.",
+  "Each one has a description, code, and live demo!",
+  "Enjoy ;)"
+];
 const projectsSubtitles = projectsText.map(text => text.match(/[^.!?]+[.!?]+(\s|$)/g) || [text]).flat();
 
-const infoText = "This is the info section. It contains details about my journey, skills, and experiences. Feel free to explore! And to contact me ;)";
-const infoSubtitles = infoText.match(/[^.!?]+[.!?]+(\s|$)/g) || [infoText];
+// Break infoText into shorter sentences for more frequent subtitle changes
+const infoText = [
+  "This is the info section.",
+  "It contains details about my journey, skills",
+  ", and experiences.",
+  "Feel free to explore!",
+  "And to contact me.",
+  "I’m happy to share my design portfolio",
+  "and a more detailed CV upon request! ;)"
+];
+const infoSubtitles = infoText;
 
 const sectionMap = [
   { id: "hero-section", subtitles: heroSubtitles },
@@ -190,6 +203,10 @@ const CompanionSubtitle = () => {
 
   return (
     <>
+      <div
+        style={{ position: 'fixed', inset: 0, zIndex: 2099, pointerEvents: showSubtitles ? 'auto' : 'none' }}
+        onClick={() => showSubtitles && setShowSubtitles(false)}
+      />
       <ToggleWrapper>
         <SwitchLabel>
           <Switch>
